@@ -1,9 +1,11 @@
 # api documentation for  [metalsmith (v2.3.0)](https://github.com/segmentio/metalsmith#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-metalsmith.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-metalsmith) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-metalsmith.svg)](https://travis-ci.org/npmdoc/node-npmdoc-metalsmith)
 #### An extremely simple, pluggable static site generator.
 
-[![NPM](https://nodei.co/npm/metalsmith.png?downloads=true)](https://www.npmjs.com/package/metalsmith)
+[![NPM](https://nodei.co/npm/metalsmith.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/metalsmith)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-metalsmith/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-metalsmith_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-metalsmith/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-metalsmith/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-metalsmith/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-metalsmith/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-metalsmith/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-metalsmith/build/screenCapture.npmPackageListing.svg)
 
@@ -73,33 +75,26 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "ajedi32",
-            "email": "andrewm.bpi@gmail.com"
+            "name": "ajedi32"
         },
         {
-            "name": "dominicbarnes",
-            "email": "dominic@dbarnes.info"
+            "name": "dominicbarnes"
         },
         {
-            "name": "ianstormtaylor",
-            "email": "ian@ianstormtaylor.com"
+            "name": "ianstormtaylor"
         },
         {
-            "name": "segment-admin",
-            "email": "tools+npm@segment.com"
+            "name": "segment-admin"
         },
         {
-            "name": "segmentio",
-            "email": "tools@segment.com"
+            "name": "segmentio"
         },
         {
-            "name": "woodyrew",
-            "email": "npm@andrewgoodricke.com"
+            "name": "woodyrew"
         }
     ],
     "name": "metalsmith",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/segmentio/metalsmith.git"
@@ -110,16 +105,6 @@
     "version": "2.3.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module metalsmith](#apidoc.module.metalsmith)
-
-
-
-# <a name="apidoc.module.metalsmith"></a>[module metalsmith](#apidoc.module.metalsmith)
 
 
 
