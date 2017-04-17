@@ -61,12 +61,101 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.metalsmith">module metalsmith</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.metalsmith.metalsmith">
+            function <span class="apidocSignatureSpan"></span>metalsmith
+            <span class="apidocSignatureSpan">(directory)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.metalsmith.toString">
+            function <span class="apidocSignatureSpan">metalsmith.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.metalsmith.toString">module metalsmith.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.metalsmith.toString.toString">
+            function <span class="apidocSignatureSpan">metalsmith.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.metalsmith" id="apidoc.module.metalsmith">module metalsmith</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.metalsmith.metalsmith" id="apidoc.element.metalsmith.metalsmith">
+        function <span class="apidocSignatureSpan"></span>metalsmith
+        <span class="apidocSignatureSpan">(directory)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Metalsmith(directory){
+  if (!(this instanceof Metalsmith)) return new Metalsmith(directory);
+  assert(directory, &#x27;You must pass a working directory path.&#x27;);
+  this.plugins = [];
+  this.ignores = [];
+  this.directory(directory);
+  this.metadata({});
+  this.source(&#x27;src&#x27;);
+  this.destination(&#x27;build&#x27;);
+  this.concurrency(Infinity);
+  this.clean(true);
+  this.frontmatter(true);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.metalsmith.toString" id="apidoc.element.metalsmith.toString">
+        function <span class="apidocSignatureSpan">metalsmith.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.metalsmith.toString" id="apidoc.module.metalsmith.toString">module metalsmith.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.metalsmith.toString.toString" id="apidoc.element.metalsmith.toString.toString">
+        function <span class="apidocSignatureSpan">metalsmith.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 

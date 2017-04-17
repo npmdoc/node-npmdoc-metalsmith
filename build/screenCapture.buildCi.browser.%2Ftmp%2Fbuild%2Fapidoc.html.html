@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/segmentio/metalsmith#readme"
-
-    >metalsmith (v2.3.0)</a>
+    <a href="https://github.com/segmentio/metalsmith#readme">metalsmith (v2.3.0)</a>
 </h1>
 <h4>An extremely simple, pluggable static site generator.</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.metalsmith">module metalsmith</a><ol>
 
@@ -109,13 +102,13 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function Metalsmith(directory){
   if (!(this instanceof Metalsmith)) return new Metalsmith(directory);
-  assert(directory, &#x27;You must pass a working directory path.&#x27;);
+  assert(directory, 'You must pass a working directory path.');
   this.plugins = [];
   this.ignores = [];
   this.directory(directory);
   this.metadata({});
-  this.source(&#x27;src&#x27;);
-  this.destination(&#x27;build&#x27;);
+  this.source('src');
+  this.destination('build');
   this.concurrency(Infinity);
   this.clean(true);
   this.frontmatter(true);
@@ -165,3 +158,4 @@
     ]
 </div>
 </div>
+</body></html>
