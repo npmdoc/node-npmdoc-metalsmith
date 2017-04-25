@@ -1,4 +1,7 @@
-# api documentation for  [metalsmith (v2.3.0)](https://github.com/segmentio/metalsmith#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-metalsmith.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-metalsmith) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-metalsmith.svg)](https://travis-ci.org/npmdoc/node-npmdoc-metalsmith)
+# npmdoc-metalsmith
+
+#### basic api documentation for  [metalsmith (v2.3.0)](https://github.com/segmentio/metalsmith#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-metalsmith.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-metalsmith) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-metalsmith.svg)](https://travis-ci.org/npmdoc/node-npmdoc-metalsmith)
+
 #### An extremely simple, pluggable static site generator.
 
 [![NPM](https://nodei.co/npm/metalsmith.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/metalsmith)
